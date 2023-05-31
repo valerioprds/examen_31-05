@@ -9,7 +9,7 @@
 <body>
     <div id="allbody" class="container">
         <h1>Ejercicio Courses</h1>
-        <div id="create-car-form">
+        <div id="create-course-form">
 
             <div class="row">
 
@@ -28,62 +28,39 @@
 
             <div class="row mt-3">
                 <div class="col">
-                    <button type="submit" class="btn btn-primary mb-2" onclick="submitCourse()">Create Car</button>
+                    <button type="submit" class="btn btn-primary mb-2" onclick="submitCourse()">Create Course</button>
                 </div>
             </div>
         </div>
 
 
-        <div id="create-wheel-form" style="display: none;">
+        <div id="create-student-form" style="display: none;">
 
             <div class="row">
 
                 <div class="col">
-                    <label for="brandWheel1" class="form-label">Marca Rueda 1</label>
-                    <input type="text" class="form-control" id="brandWheel1">
+                    <label for="nombreUsuario" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombreUsuario">
                 </div>
 
                 <div class="col">
-                    <label for="diameterWheel1" class="form-label">Diámetro Rueda 1</label>
-                    <input type="text" class="form-control" id="diameterWheel1">
+                    <label for="dniUsuario" class="form-label">DNI</label>
+                    <input type="text" class="form-control" id="dniUsuario">
                 </div>
 
                 <div class="col">
-                    <label for="brandWheel2" class="form-label">Marca Rueda 2</label>
-                    <input type="text" class="form-control" id="brandWheel2">
+                    <label for="nacimientoUsuario" class="form-label">Fecha nacimiento</label>
+                    <input type="text" class="form-control" id="nacimientoUsuario">
                 </div>
 
-                <div class="col">
-                    <label for="diameterWheel2" class="form-label">Diámetro Rueda 2</label>
-                    <input type="text" class="form-control" id="diameterWheel2">
-                </div>
+              
             </div>
+
+            
 
             <div class="row mt-3">
                 <div class="col">
-                    <label for="brandWheel3" class="form-label">Marca Rueda 3</label>
-                    <input type="text" class="form-control" id="brandWheel3">
-                </div>
-
-                <div class="col">
-                    <label for="diameterWheel3" class="form-label">Diámetro Rueda 3</label>
-                    <input type="text" class="form-control" id="diameterWheel3">
-                </div>
-
-                <div class="col">
-                    <label for="brandWheel4" class="form-label">Marca Rueda 4</label>
-                    <input type="text" class="form-control" id="brandWheel4">
-                </div>
-
-                <div class="col">
-                    <label for="diameterWheel4" class="form-label">Diámetro Rueda 4</label>
-                    <input type="text" class="form-control" id="diameterWheel4">
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col">
-                    <button type="submit" class="btn btn-primary mb-2" onclick="submitWheelForm()">Add Wheels</button>
+                    <button type="submit" class="btn btn-primary mb-2" onclick="showStudentForm()">Add Student</button>
                 </div>
             </div>
         </div>
