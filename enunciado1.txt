@@ -1,0 +1,14 @@
+Un equipo de programadores/as, nos ha programado una mini aplicación para gestionar vehículos. Hace unos días, un cliente nos pidió si podríamos hacer una evolución de este código, pero en lugar de guardar vehículos, quiere guardar cursos con alumnos/as.
+
+Formulario 1:
+- Servirá para crear un curso. El curso debe de tener un nombre y una descripción
+
+Formulario 2:
+- Servirá para ingresar alumnos/as. Los alumnos deberán tener un nombre, DNI y fecha de nacimiento (<input type="date">)
+- No se podrán insertar alumnos con el mismo DNI en el curso
+
+Final:
+- Se mostrará un resumen del curso, junto con los alumnos ingresados.
+
+Todos los campos serán obligatorios y en caso de ser erróneos, deberán ser marcados en rojo.
+La aplicación se debe comprimir y subir al Moodle.
